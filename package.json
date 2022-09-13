@@ -1,0 +1,27 @@
+{
+  "name": "luis-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-neira/luis-2022.git"
+  },
+  "keywords": [],
+  "author": "Luis Neira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis-neira/luis-2022/issues"
+  },
+  "homepage": "https://github.com/luis-neira/luis-2022#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "got": "11.8.2",
+    "http-errors": "^2.0.0"
+  }
+}
